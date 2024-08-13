@@ -1,0 +1,153 @@
+
+header {
+    background-color: #242741;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0% 10%;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 25px;
+
+ 
+
+}
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+header ul li {
+    display: inline-block;
+    padding: 10px 15px;
+    margin-right: 60px;
+}
+
+header ul li a{ 
+    color: white;
+    text-decoration: none;
+}
+
+
+header img {
+    height: 100%; 
+     padding-right: 70px;
+}
+
+header ul li a:hover{
+    background-color: #7967a3;
+    border-radius: 40px;
+}
+
+
+
+header .logo {
+    height: 30%; 
+    position: absolute; 
+    left: 20px; 
+    margin-top: 140px;
+    
+   
+        
+      
+      
+}
+
+.sidebar {
+    width: 1000px;
+    background-color: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+  color: white;
+    padding: 20px;
+    margin-top: 77px;
+     padding-top: 100px;
+     position: absolute;
+     
+  
+}
+
+.sidebar>img{
+    width: 600px;
+}
+
+.help {
+    
+    padding: 20px;
+    
+    
+    width: 100%;
+    max-width: 600px;
+    font-family: "Poppins", sans-serif;
+    margin-top: 100px;
+    margin-left: 37px;
+    
+}
+
+h1 {
+    
+    color: #000000;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    
+    font-family: "Poppins", sans-serif;
+    color: #000000;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 9px;
+    font-family: "Poppins", sans-serif;
+    background-color: #dad9d9;;
+    width: 400px;
+}
+
+textarea {
+    resize: vertical;
+    font-family: "Poppins", sans-serif;
+
+}
+
+button {
+    background-color: #fdf079;;
+    color: #000000;
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    width: 140px;
+}
+
+button:hover {
+    background-color: #f3ce54;
+    font-weight: bolder;
+}
+hr{
+    width:130px;
+    margin-right: 500px;
+    height: 3px;
+    background-color: #000000;
+    
+}
+
+
+.cinza{background-color: rgb(148, 146, 146);}
+
+
+.espaco{
+    margin-top: 10px;
+}
